@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="head_top">24dp</dimen>
+    <dimen name="divider_height">0.5dp</dimen>
+    <dimen name="button_radius">8dp</dimen>
+    <dimen name="main_radius">12dp</dimen>
+</resources>

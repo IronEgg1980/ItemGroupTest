@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="开始日期："/>
+        <DatePicker
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/start_date"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="结束日期："/>
+        <DatePicker
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/end_date"
+            android:textSize="16sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_date_confirm"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/button_style_green"
+            android:text="选好了"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_date_cancel"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/button_style_orange"
+            android:text="取消"/>
+    </LinearLayout>
+</LinearLayout>

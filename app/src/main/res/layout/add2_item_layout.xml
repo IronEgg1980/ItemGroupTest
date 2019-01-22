@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="@dimen/button_radius"
+    app:cardElevation="6dp">
+    <TextView
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/add2_itemname"
+        android:background="@drawable/addactivity2_button_selector"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:text="测试"
+        />
+</android.support.v7.widget.CardView>
